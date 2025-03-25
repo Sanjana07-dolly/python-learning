@@ -1,0 +1,16 @@
+#this is my first program
+print('Python is easy!!!')
+#comments or doc strings
+#this is the trails od comments in different way
+"""Author is Sanjana R 
+create on march 17th 2025
+"""
+#what is indentations in python
+x= int(input("Enter min number"))
+y= int(input("enter max number"))
+i=x
+if i % 2 == 0: i=x+1
+while i<=y:
+    print(i)
+    i+=2
+output
