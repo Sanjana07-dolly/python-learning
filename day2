@@ -1,0 +1,68 @@
+#numeric data types
+from operator import truediv
+
+a=30
+b=100
+c=-66
+print(a,b,c)
+print(type(a))
+
+x=33.5
+y=-25.8
+z=205
+print(x,y,z)
+print(type(y))
+print(type(b))
+
+#Complex,Binary and Hexadecimal types
+d = 3+5j
+print(d)
+print(type(d))
+
+e = 0B1010
+print(e)
+print(type(e))
+
+f = 0XFF
+print(f)
+print(type(f))
+
+#octadecimal type
+g = 0O56
+print(g)
+print(type(g))
+
+#Boolean type
+h = True
+print(h)
+print(type(h))
+
+#Boolean is used in conditions/we use it in looping statements
+print(9>5)
+print(9<6)
+
+#Type Conversion functions
+i=int(x)
+print(i)
+print(type(i))
+
+j=float(a)
+print(j)
+k=float("22.5")
+print(k)
+
+print(bin(101))
+print(hex(20))
+print(oct(33))
+
+#identifiers
+userid = 123
+userID=123
+user123ID=234
+userID2222=99999
+user_id=211
+_user_id_=5555
+_userid=656  #it is recognized as private
+__userid=00000 #highly it is recognized as private
+__init__=555 #its special functions
+
